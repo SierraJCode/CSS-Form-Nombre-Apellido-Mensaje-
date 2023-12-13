@@ -1,0 +1,61 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #efefef;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.box{
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 1rem rgba(0,0,0,0.5);
+}
+
+input[type=text]{
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 0.5rem 0;
+    border: solid 0.01rem;
+    border-radius: 0.3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(0, 166, 255);
+    color: #efefef;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 16px;
+    
+}
+
+textarea{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 0.5rem 0;
+    border: solid 0.01rem;
+    border-radius: 0.3rem;
+    resize: none;
+
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+    transition: box-shadow 0.2s;
+}
+
+
